@@ -2,11 +2,11 @@
 
 Dockerized ASCII Aquarium in terminal
 
-Works as long as docker works on your machine.
+![:^)](http://i.imgur.com/AMXzTUZ.jpg ":O")
 
-Mac users should install Docker for Mac.
+## installation
 
-Windows users are cursed.
+Install [Docker](https://docs.docker.com/engine/installation/)
 
 ```
 git clone https://github.com/sakib/asciiquarium
@@ -15,4 +15,6 @@ docker build -t asciiquarium .
 docker run -t asciiquarium
 ```
 
-![:^)](http://i.imgur.com/AMXzTUZ.jpg ":O")
+## banter
+
+RIP Windows users
