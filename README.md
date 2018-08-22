@@ -15,6 +15,14 @@ docker build -t asciiquarium .
 docker run -t asciiquarium
 ```
 
+You can use the shell script too - it does all the steps above:
+
+```
+$ chmod +x asciiquarium.sh
+$ ./asciiquarium.sh
+
+```
+
 ## banter
 
 RIP Windows users
