@@ -15,7 +15,7 @@ RUN perl Makefile.PL && make && make test && \
 
 # install asciiquarium
 WORKDIR /tmp
-RUN wget http://www.robobunny.com/projects/asciiquarium/asciiquarium.tar.gz && \
+RUN wget --no-check-certificate http://www.robobunny.com/projects/asciiquarium/asciiquarium.tar.gz && \
     tar -zxvf asciiquarium.tar.gz
 WORKDIR /tmp/asciiquarium_1.1/
 
